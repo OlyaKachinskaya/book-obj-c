@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
         //splitting a file word into an array of strings
         NSArray *wordArr = [words componentsSeparatedByString:@"\n"];
         
-        //strings comparing 
+        //strings comparing
         for (NSString *nameStr in nameArr)
         {
             for (NSString *wordStr in wordArr)
