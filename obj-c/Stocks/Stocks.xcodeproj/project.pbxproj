@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		789BD48F25D301EA007B5678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789BD48E25D301EA007B5678 /* main.m */; };
 		789BD49825D3020A007B5678 /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 789BD49725D3020A007B5678 /* StockHolding.m */; };
+		789BD4A025D31FDF007B5678 /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 789BD49F25D31FDF007B5678 /* ForeignStockHolding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		789BD48E25D301EA007B5678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		789BD49625D3020A007B5678 /* StockHolding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockHolding.h; sourceTree = "<group>"; };
 		789BD49725D3020A007B5678 /* StockHolding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
+		789BD49E25D31FDF007B5678 /* ForeignStockHolding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForeignStockHolding.h; sourceTree = "<group>"; };
+		789BD49F25D31FDF007B5678 /* ForeignStockHolding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForeignStockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,8 @@
 		789BD48225D301EA007B5678 = {
 			isa = PBXGroup;
 			children = (
+				789BD49E25D31FDF007B5678 /* ForeignStockHolding.h */,
+				789BD49F25D31FDF007B5678 /* ForeignStockHolding.m */,
 				789BD49625D3020A007B5678 /* StockHolding.h */,
 				789BD49725D3020A007B5678 /* StockHolding.m */,
 				789BD48D25D301EA007B5678 /* Stocks */,
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789BD4A025D31FDF007B5678 /* ForeignStockHolding.m in Sources */,
 				789BD49825D3020A007B5678 /* StockHolding.m in Sources */,
 				789BD48F25D301EA007B5678 /* main.m in Sources */,
 			);
