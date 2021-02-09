@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         //создание экземпляра Employee
         Employee *person = [[Employee alloc] init];
-    
+
         //присваивание значение переменным экземпляра
         [person setWeightInKilos:96];
         [person setHeightInMeters:1.8];
