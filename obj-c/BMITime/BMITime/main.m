@@ -7,21 +7,24 @@
 
 #import <Foundation/Foundation.h>
 #import "Person.h"
+#import "Employee.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        //создание экземпляра Person
-        Person *person = [[Person alloc] init];
-        
+        //создание экземпляра Employee
+        Employee *person = [[Employee alloc] init];
+    
         //присваивание значение переменным экземпляра
         [person setWeightInKilos:96];
         [person setHeightInMeters:1.8];
+        [person setEmployeeID:15];
         
         //вызов метода bodyMassIndex
         float bmi = [person bodyMassIndex];
-        NSLog(@"person (%d, %.1f) has a BMI of %f",
-              [person weightInKilos],[person heightInMeters],bmi);
-        
+        NSLog(@"Employee %d has a BMI of %f",
+              [person employeeID],bmi);
+       
+       
     }
     return 0;
 }
